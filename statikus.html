@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Kedvenc állataim</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f5f7fa;
+            color: #222;
+        }
+
+        header {
+            background: #2b6cb0;
+            color: white;
+            padding: 20px 10%;
+            text-align: center;
+            height: 100px;
+            
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.2rem;
+            margin-top: 30px;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 15px 40px;
+
+            display: flex; 
+            gap: 20px;     
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .animal-card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px 25px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+            margin-bottom: 20px;
+        }
+
+        .animal-card h2 {
+            margin-top: 0;
+            color: #2b6cb0;
+        }
+
+        .animal-type {
+            font-weight: bold;
+            color: #444;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.85rem;
+            color: #666;
+            padding: 15px 0 25px;
+        }
+        img{
+            width: 300px;
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        p{
+            text-align: justify;
+        }
+       h2{
+        text-align: center;
+       }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Kedvenc állataim</h1>
+</header>
+
+<main>
+
+    <section class="animal-card" id="panda">
+        
+        <img src="./Feladat/panda.jpg" alt="">
+        <h2>Panda</h2>
+        <p>
+            Az óriáspanda elterjedési területe mindössze 5900 km², amely magában foglalja
+            Szecsuan, Kanszu és Sanhszi kínai tartományok hegyvidéki területeit.
+        </p>
+        <p>
+            Az óriáspanda természetes élőhelyei a sűrű erdővel benőtt szubtrópusi hegyoldalak.
+            Itt él nyáron 2700–4000 méter magasságig, télen alacsonyabbra vándorol, gyakran
+            800 méteres magasságig. Élettere általában nedves és csapadékban gazdag;
+            a nyár hűvös, a tél hideg.
+        </p>
+    </section>
+
+    <section class="animal-card" id="kutya-macska">
+        
+        <img src="./Feladat/kutyus_macska.png" alt="">
+        <h2>Kutya és macska</h2>
+        <p class="animal-type">Kutya</p>
+        <p>
+            A kutya vagy eb ujjon járó emlős ragadozó állat, a szürke farkas egy mára kihalt
+            alfajának háziasított formája. Valószínűleg a legrégebben háziasított állatfaj.
+            Az egyetlen olyan emlős állatfaj, amely tudományos nevében megkapta a
+            <em>familiaris</em>, azaz a családhoz tartozó jelzőt.
+        </p>
+
+        <p class="animal-type">Macska</p>
+        <p>
+            A macska, más néven házi macska kisebb termetű húsevő emlős, ami a ragadozók
+            rendjén belül a macskafélék családjának <em>Felis</em> neméhez és vadmacska
+            fajához tartozik. A vadmacska alfaja. Ügyes ragadozó, több mint 1000 faj
+            tekinthető a zsákmányának.
+        </p>
+    </section>
+
+    <section class="animal-card" id="lajhar">
+        
+        <img src="./Feladat/lajhar.jpg" alt="">
+        <h2>Lajhár</h2>
+        <p>
+            A lajhárok az emlősök osztályának, a vendégízületesek öregrendjének, azon belül
+            a szőrös vagy páncélozatlan vendégízületesek rendjének egyik alrendje.
+        </p>
+    </section>
+</main>
+
+<footer>
+   
+</footer>
+</body>
+</html>
